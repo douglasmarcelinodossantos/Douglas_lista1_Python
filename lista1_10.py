@@ -6,7 +6,8 @@ def max_min_valor(dicionario):
     print(f'O valor máximo do dicionário é: {max(dicionario.values())}')
     print(f'O valor mínimo do dicionário é: {min(dicionario.values())}')
 
-max_min_valor(dicionario)
+if __name__ == '__main__':
+    max_min_valor(dicionario)
 
 
 
